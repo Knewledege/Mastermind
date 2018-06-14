@@ -1,0 +1,180 @@
+
+/* Class = "UIButton"; normalTitle = "How to play"; ObjectID = "2eE-eZ-GE6"; */
+"2eE-eZ-GE6.normalTitle" = "遊び方";
+
+/* Class = "UILabel"; text = "YOUR"; ObjectID = "2iT-7i-FCd"; */
+"2iT-7i-FCd.text" = "自分";
+
+/* Class = "UIButton"; normalTitle = "ENTER"; ObjectID = "4jA-4b-KVd"; */
+"4jA-4b-KVd.normalTitle" = "決定";
+
+/* Class = "UIButton"; normalTitle = "3"; ObjectID = "4mC-ne-UJQ"; */
+"4mC-ne-UJQ.normalTitle" = "3";
+
+/* Class = "UILabel"; text = "H"; ObjectID = "5Ea-JQ-mHg"; */
+"5Ea-JQ-mHg.text" = "H";
+
+/* Class = "UIButton"; normalTitle = "7"; ObjectID = "5d0-wN-qbB"; */
+"5d0-wN-qbB.normalTitle" = "7";
+
+/* Class = "UIButton"; normalTitle = "ENTER"; ObjectID = "5m5-H5-BAX"; */
+"5m5-H5-BAX.normalTitle" = "決定";
+
+/* Class = "UIButton"; normalTitle = "7"; ObjectID = "68u-tT-zhJ"; */
+"68u-tT-zhJ.normalTitle" = "7";
+
+/* Class = "UILabel"; text = "B"; ObjectID = "6nF-ZU-cQk"; */
+"6nF-ZU-cQk.text" = "B";
+
+/* Class = "UIButton"; normalTitle = "Once again"; ObjectID = "71k-ar-vHV"; */
+"71k-ar-vHV.normalTitle" = "もう一度";
+
+/* Class = "UIButton"; normalTitle = "2"; ObjectID = "9oN-Vc-r4h"; */
+"9oN-Vc-r4h.normalTitle" = "2";
+
+/* Class = "UILabel"; text = "B"; ObjectID = "G1R-fU-lwN"; */
+"G1R-fU-lwN.text" = "B";
+
+/* Class = "UILabel"; text = "Your winning percentage"; ObjectID = "GGz-3b-DZw"; */
+"GGz-3b-DZw.text" = "あなたの勝率";
+
+/* Class = "UILabel"; text = "%"; ObjectID = "IZE-bV-wmF"; */
+"IZE-bV-wmF.text" = "%";
+
+/* Class = "UILabel"; text = "H"; ObjectID = "Jdb-DZ-mwE"; */
+"Jdb-DZ-mwE.text" = "H";
+
+/* Class = "UIButton"; normalTitle = "4"; ObjectID = "Jtt-Hb-h1A"; */
+"Jtt-Hb-h1A.normalTitle" = "4";
+
+/* Class = "UIButton"; normalTitle = "８"; ObjectID = "Kem-ik-821"; */
+"Kem-ik-821.normalTitle" = "８";
+
+/* Class = "UIButton"; normalTitle = "Delet"; ObjectID = "MaA-Gs-EvZ"; */
+"MaA-Gs-EvZ.normalTitle" = "消す";
+
+/* Class = "UILabel"; text = "H"; ObjectID = "PJn-7W-p69"; */
+"PJn-7W-p69.text" = "H";
+
+/* Class = "UILabel"; text = "・How to play\n\nThis game is the thinking game which you guess a3 digit number set by  opponent.\nYou can get a hints when you ask the number other player said.\n\nso, what’s the hint??\nHit : The number you asked which include same other player’s number and place.\nBlow : The number you asked which includes other  player’s number However include’s it. but number’s place is wrong .\n\n[ Sample ]\n\nyour asked number : 132\nopponent’s number : 012\n\nOpponent 'snumber and your asked number both includes 1 and 2.\n2’s place and number is same so, it’s right, but place is wrong.\nAccording to this, hint will be 1H1B.\n\nAfter continuing asking each other , you can win when you predict opponent’s number and get 3Hit!\n\nThis game have a game with computer and playing with your friend by using bluetooth.\n\nIn computer game ,you can always play first.\nIn game with your friend, order will be decided when it connects.\n\n[ How to connect by Bluetooth ]\n\n1 push a search button.\\n\n2 Touch your friend’s name of device.\n*you can touch more than two it won’t work if you touch more the two.\n3 Touch if the switchr get blue ,the game with begin when you touch the DONE switch.\n\nPlay enjoy!!!!"; ObjectID = "RJI-da-3gr"; */
+"RJI-da-3gr.text" = "・遊び方\n\nこのゲームは、お互いの設定した3桁の数字を当てあうゲームです。\n相手の設定した数字を質問すると、ヒントが得られます。\n＊＊[ヒントとは] ？ H ？ B＊＊\nHit:    あなたが質問した数字の内、\n相手の数字と、\n位置も 数字も一致している数。\nBlow:  あなたが質問した数字内、\n相手の数字に含まれている数字の数。\nただし、位置は間違っています。\n\n＜例＞\n相手の設定した数字 ： ０１２\nあなたの質問した数字： １３２\n\n相手の数字とあなたの質問した数字に\n１と２が含まれています。\n２は位置も数字も正解しているので 1Hit。\n１は数字は正解していますが、\n位置が間違っているので、１Blow。\n結果、ヒント １H１B となります。\n\nこのヒントを元に当たるまで質問し合い、\n先に相手の数字を当て\n３Hitを得られた方の勝ち！\n\nこのアプリでは、コンピュータ対戦と\n友達とBluetooth対戦する２パターンが\n用意されています。\n\nコンピュータ対戦では、毎回あなたが先攻。\n友達との対戦では、接続時に決まります。\n\n[Bluetoothの接続方法]\n１.対戦相手を検索ボタンを押す\n２.対戦相手のデバイス名をタッチ\n＊複数タッチできますが、タッチは\n一つまでにしないと動作しません。\n３.Doneのボタンが青くなったらタッチ\nDoneボタンを押すとゲームが開始されます。\n\nお楽しみください！！\n";
+
+/* Class = "UIButton"; normalTitle = "vs AI"; ObjectID = "RMf-7f-ilD"; */
+"RMf-7f-ilD.normalTitle" = "人工知能対戦";
+
+/* Class = "UILabel"; text = "B"; ObjectID = "RWI-BC-enW"; */
+"RWI-BC-enW.text" = "B";
+
+/* Class = "UILabel"; text = "H"; ObjectID = "RuI-hM-6Mh"; */
+"RuI-hM-6Mh.text" = "H";
+
+/* Class = "UILabel"; text = "B"; ObjectID = "TiI-m3-23a"; */
+"TiI-m3-23a.text" = "B";
+
+/* Class = "UIButton"; normalTitle = "5"; ObjectID = "Vvu-bT-HPd"; */
+"Vvu-bT-HPd.normalTitle" = "5";
+
+/* Class = "UIButton"; normalTitle = "Title"; ObjectID = "Wga-ef-OKa"; */
+"Wga-ef-OKa.normalTitle" = "タイトル";
+
+/* Class = "UIButton"; normalTitle = "3"; ObjectID = "XjM-ci-AF6"; */
+"XjM-ci-AF6.normalTitle" = "3";
+
+/* Class = "UILabel"; text = "B"; ObjectID = "Yz6-72-dzH"; */
+"Yz6-72-dzH.text" = "B";
+
+/* Class = "UILabel"; text = "H"; ObjectID = "Z2I-DM-JbX"; */
+"Z2I-DM-JbX.text" = "H";
+
+/* Class = "UIButton"; normalTitle = "Search opponent"; ObjectID = "ZO8-xC-KWH"; */
+"ZO8-xC-KWH.normalTitle" = "対戦相手検索開始";
+
+/* Class = "UIButton"; normalTitle = "Title"; ObjectID = "aCD-21-uYM"; */
+"aCD-21-uYM.normalTitle" = "タイトル画面";
+
+/* Class = "UILabel"; text = "B"; ObjectID = "aJ1-uA-7Lk"; */
+"aJ1-uA-7Lk.text" = "B";
+
+/* Class = "UILabel"; text = "H"; ObjectID = "aQa-g1-YQS"; */
+"aQa-g1-YQS.text" = "H";
+
+/* Class = "UIButton"; normalTitle = "９"; ObjectID = "adA-z9-3fA"; */
+"adA-z9-3fA.normalTitle" = "９";
+
+/* Class = "UIButton"; normalTitle = "Title"; ObjectID = "agi-cO-Gk6"; */
+"agi-cO-Gk6.normalTitle" = "タイトル";
+
+/* Class = "UIButton"; normalTitle = "９"; ObjectID = "bP0-3q-5vq"; */
+"bP0-3q-5vq.normalTitle" = "９";
+
+/* Class = "UILabel"; text = "B"; ObjectID = "bVM-yu-8h9"; */
+"bVM-yu-8h9.text" = "B";
+
+/* Class = "UILabel"; text = "%"; ObjectID = "cAH-VM-v9O"; */
+"cAH-VM-v9O.text" = "%";
+
+/* Class = "UILabel"; text = "AI"; ObjectID = "eVc-dy-lrn"; */
+"eVc-dy-lrn.text" = "人工知能";
+
+/* Class = "UIButton"; normalTitle = "4"; ObjectID = "ehG-fg-BYC"; */
+"ehG-fg-BYC.normalTitle" = "4";
+
+/* Class = "UIButton"; normalTitle = "6"; ObjectID = "fOs-7r-tsG"; */
+"fOs-7r-tsG.normalTitle" = "6";
+
+/* Class = "UIButton"; normalTitle = "1"; ObjectID = "ftm-zF-Xtf"; */
+"ftm-zF-Xtf.normalTitle" = "1";
+
+/* Class = "UIButton"; normalTitle = "vs Friend"; ObjectID = "gko-aU-na7"; */
+"gko-aU-na7.normalTitle" = "友達対戦";
+
+/* Class = "UIButton"; normalTitle = "1"; ObjectID = "hHs-kN-vAU"; */
+"hHs-kN-vAU.normalTitle" = "1";
+
+/* Class = "UILabel"; text = "B"; ObjectID = "hNg-s8-aeX"; */
+"hNg-s8-aeX.text" = "B";
+
+/* Class = "UIButton"; normalTitle = "８"; ObjectID = "hwa-87-2bG"; */
+"hwa-87-2bG.normalTitle" = "８";
+
+/* Class = "UIButton"; normalTitle = "6"; ObjectID = "kla-2C-u0b"; */
+"kla-2C-u0b.normalTitle" = "6";
+
+/* Class = "UIButton"; normalTitle = "0"; ObjectID = "lGA-W3-rVr"; */
+"lGA-W3-rVr.normalTitle" = "0";
+
+/* Class = "UILabel"; text = "YOUR"; ObjectID = "oMa-bW-fZe"; */
+"oMa-bW-fZe.text" = "自分";
+
+/* Class = "UILabel"; text = "ENEMY"; ObjectID = "oZx-6D-XOB"; */
+"oZx-6D-XOB.text" = "相手";
+
+/* Class = "UILabel"; text = "H"; ObjectID = "pwR-6X-Ioa"; */
+"pwR-6X-Ioa.text" = "H";
+
+/* Class = "UIButton"; normalTitle = "0"; ObjectID = "qK8-ji-mdN"; */
+"qK8-ji-mdN.normalTitle" = "0";
+
+/* Class = "UIButton"; normalTitle = "2"; ObjectID = "qmO-i7-zW4"; */
+"qmO-i7-zW4.normalTitle" = "2";
+
+/* Class = "UIButton"; normalTitle = "Delet"; ObjectID = "riK-6S-EAW"; */
+"riK-6S-EAW.normalTitle" = "消す";
+
+/* Class = "UIButton"; normalTitle = "5"; ObjectID = "tBm-XF-TNf"; */
+"tBm-XF-TNf.normalTitle" = "5";
+
+/* Class = "UILabel"; text = "H"; ObjectID = "tvH-hY-wmt"; */
+"tvH-hY-wmt.text" = "H";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "ujQ-OY-ba8"; */
+"ujQ-OY-ba8.title" = "戻る";
+
+/* Class = "UILabel"; text = "MASTER MIND"; ObjectID = "urX-0b-jla"; */
+"urX-0b-jla.text" = "マスターマインド";
+
+/* Class = "UIButton"; normalTitle = "Once again"; ObjectID = "vEM-ft-WRU"; */
+"vEM-ft-WRU.normalTitle" = "もう一度";
+
+/* Class = "UILabel"; text = "Can you exceeds to AI??"; ObjectID = "w9c-tz-7j6"; */
+"w9c-tz-7j6.text" = "人工知能に勝率で勝てるか？？";

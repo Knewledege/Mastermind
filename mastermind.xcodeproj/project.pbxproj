@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		624E23339753B505E1992335 /* Pods_mastermind.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8390766D14D5E1B0A2D11ED /* Pods_mastermind.framework */; };
+		AA0998B21EE18EDF007FE956 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA0998B11EE18EDF007FE956 /* GoogleMobileAds.framework */; };
+		AA4341FE1EB8FE7F00CAFCA1 /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA4341FD1EB8FE7F00CAFCA1 /* GoogleToolboxForMac.framework */; };
+		AA4342051EC2D83500CAFCA1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA4342071EC2D83500CAFCA1 /* Localizable.strings */; };
+		AA43420F1EC2D9B600CAFCA1 /* mastermindTests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = CDCADB2D1E3A43470081E634 /* mastermindTests.xctest */; };
+		AA4342101EC2D9BB00CAFCA1 /* mastermindUITests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = CDCADB381E3A43480081E634 /* mastermindUITests.xctest */; };
+		CD5A25F01E4BA5D0002CDED5 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD5A25EF1E4BA5D0002CDED5 /* AdSupport.framework */; };
+		CD5A25F21E4BA5DC002CDED5 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD5A25F11E4BA5DC002CDED5 /* AudioToolbox.framework */; };
+		CD5A25F41E4BA5E9002CDED5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD5A25F31E4BA5E9002CDED5 /* AVFoundation.framework */; };
+		CD5A25F61E4BA5F5002CDED5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD5A25F51E4BA5F5002CDED5 /* CoreGraphics.framework */; };
+		CD5A25F81E4BA601002CDED5 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD5A25F71E4BA601002CDED5 /* CoreTelephony.framework */; };
+		CD5A25FA1E4BA60E002CDED5 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD5A25F91E4BA60E002CDED5 /* EventKit.framework */; };
+		CD5A25FC1E4BA61C002CDED5 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD5A25FB1E4BA61C002CDED5 /* EventKitUI.framework */; };
+		CD5A25FE1E4BA626002CDED5 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD5A25FD1E4BA626002CDED5 /* MessageUI.framework */; };
+		CD5A26001E4BA631002CDED5 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD5A25FF1E4BA631002CDED5 /* StoreKit.framework */; };
+		CD5A26021E4BA63B002CDED5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD5A26011E4BA63B002CDED5 /* SystemConfiguration.framework */; };
+		CD5ADCF41E4BA01000DBA72C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD5ADCF31E4BA01000DBA72C /* GoogleService-Info.plist */; };
+		CDCADB1D1E3A43470081E634 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCADB1C1E3A43470081E634 /* AppDelegate.swift */; };
+		CDCADB1F1E3A43470081E634 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCADB1E1E3A43470081E634 /* ViewController.swift */; };
+		CDCADB221E3A43470081E634 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDCADB201E3A43470081E634 /* Main.storyboard */; };
+		CDCADB241E3A43470081E634 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDCADB231E3A43470081E634 /* Assets.xcassets */; };
+		CDCADB271E3A43470081E634 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDCADB251E3A43470081E634 /* LaunchScreen.storyboard */; };
+		CDCADB321E3A43470081E634 /* mastermindTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCADB311E3A43470081E634 /* mastermindTests.swift */; };
+		CDCADB3D1E3A43480081E634 /* mastermindUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCADB3C1E3A43480081E634 /* mastermindUITests.swift */; };
+		CDCADB4B1E3A436E0081E634 /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCADB4A1E3A436E0081E634 /* secondViewController.swift */; };
+		CDCADB4D1E3A437C0081E634 /* thirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCADB4C1E3A437C0081E634 /* thirdViewController.swift */; };
+		CDCADB4F1E3A43880081E634 /* vs2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCADB4E1E3A43880081E634 /* vs2ViewController.swift */; };
+		CDCADB511E3A43930081E634 /* vsthirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCADB501E3A43930081E634 /* vsthirdViewController.swift */; };
+		CDCADB541E3A43AB0081E634 /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDCADB531E3A43AB0081E634 /* MultipeerConnectivity.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDCADB2E1E3A43470081E634 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDCADB111E3A43470081E634 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDCADB181E3A43470081E634;
+			remoteInfo = mastermind;
+		};
+		CDCADB391E3A43480081E634 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDCADB111E3A43470081E634 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDCADB181E3A43470081E634;
+			remoteInfo = mastermind;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B70B889E8CE396210AB5B4B /* Pods-mastermind.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mastermind.release.xcconfig"; path = "Pods/Target Support Files/Pods-mastermind/Pods-mastermind.release.xcconfig"; sourceTree = "<group>"; };
+		8C419D9CF2F754C3D2E1C6B3 /* Pods-mastermind.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mastermind.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mastermind/Pods-mastermind.debug.xcconfig"; sourceTree = "<group>"; };
+		AA0998B11EE18EDF007FE956 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = "Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework"; sourceTree = "<group>"; };
+		AA4341FD1EB8FE7F00CAFCA1 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleToolboxForMac.framework; path = "../../Library/Developer/Xcode/DerivedData/mastermind-eodmixmibmtpljcwokdvdecvjzgs/Build/Products/Debug-iphoneos/GoogleToolboxForMac/GoogleToolboxForMac.framework"; sourceTree = "<group>"; };
+		AA4342061EC2D83500CAFCA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		AA43420B1EC2D97100CAFCA1 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		AA43420C1EC2D97B00CAFCA1 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		AA5CCDF11ED557EA00A19F5F /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		CD5A25EF1E4BA5D0002CDED5 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		CD5A25F11E4BA5DC002CDED5 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		CD5A25F31E4BA5E9002CDED5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CD5A25F51E4BA5F5002CDED5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CD5A25F71E4BA601002CDED5 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		CD5A25F91E4BA60E002CDED5 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		CD5A25FB1E4BA61C002CDED5 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		CD5A25FD1E4BA626002CDED5 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		CD5A25FF1E4BA631002CDED5 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		CD5A26011E4BA63B002CDED5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CD5ADCF31E4BA01000DBA72C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CDCADB191E3A43470081E634 /* mastermind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mastermind.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDCADB1C1E3A43470081E634 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CDCADB1E1E3A43470081E634 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CDCADB211E3A43470081E634 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDCADB231E3A43470081E634 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDCADB261E3A43470081E634 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDCADB281E3A43470081E634 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDCADB2D1E3A43470081E634 /* mastermindTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mastermindTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDCADB311E3A43470081E634 /* mastermindTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mastermindTests.swift; sourceTree = "<group>"; };
+		CDCADB331E3A43480081E634 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDCADB381E3A43480081E634 /* mastermindUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mastermindUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDCADB3C1E3A43480081E634 /* mastermindUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mastermindUITests.swift; sourceTree = "<group>"; };
+		CDCADB3E1E3A43480081E634 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDCADB4A1E3A436E0081E634 /* secondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
+		CDCADB4C1E3A437C0081E634 /* thirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = thirdViewController.swift; sourceTree = "<group>"; };
+		CDCADB4E1E3A43880081E634 /* vs2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = vs2ViewController.swift; sourceTree = "<group>"; };
+		CDCADB501E3A43930081E634 /* vsthirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = vsthirdViewController.swift; sourceTree = "<group>"; };
+		CDCADB531E3A43AB0081E634 /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
+		E8390766D14D5E1B0A2D11ED /* Pods_mastermind.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mastermind.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDCADB161E3A43470081E634 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA0998B21EE18EDF007FE956 /* GoogleMobileAds.framework in Frameworks */,
+				AA4341FE1EB8FE7F00CAFCA1 /* GoogleToolboxForMac.framework in Frameworks */,
+				CD5A26021E4BA63B002CDED5 /* SystemConfiguration.framework in Frameworks */,
+				CD5A26001E4BA631002CDED5 /* StoreKit.framework in Frameworks */,
+				CD5A25FE1E4BA626002CDED5 /* MessageUI.framework in Frameworks */,
+				CD5A25FC1E4BA61C002CDED5 /* EventKitUI.framework in Frameworks */,
+				CD5A25FA1E4BA60E002CDED5 /* EventKit.framework in Frameworks */,
+				CD5A25F81E4BA601002CDED5 /* CoreTelephony.framework in Frameworks */,
+				CD5A25F61E4BA5F5002CDED5 /* CoreGraphics.framework in Frameworks */,
+				CD5A25F41E4BA5E9002CDED5 /* AVFoundation.framework in Frameworks */,
+				CD5A25F21E4BA5DC002CDED5 /* AudioToolbox.framework in Frameworks */,
+				CD5A25F01E4BA5D0002CDED5 /* AdSupport.framework in Frameworks */,
+				CDCADB541E3A43AB0081E634 /* MultipeerConnectivity.framework in Frameworks */,
+				624E23339753B505E1992335 /* Pods_mastermind.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDCADB2A1E3A43470081E634 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDCADB351E3A43480081E634 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDCADB101E3A43470081E634 = {
+			isa = PBXGroup;
+			children = (
+				CDCADB1B1E3A43470081E634 /* mastermind */,
+				CDCADB301E3A43470081E634 /* mastermindTests */,
+				CDCADB3B1E3A43480081E634 /* mastermindUITests */,
+				CDCADB1A1E3A43470081E634 /* Products */,
+				CDCADB521E3A43AB0081E634 /* Frameworks */,
+				D364FA6A94D4EE33CC512865 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		CDCADB1A1E3A43470081E634 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDCADB191E3A43470081E634 /* mastermind.app */,
+				CDCADB2D1E3A43470081E634 /* mastermindTests.xctest */,
+				CDCADB381E3A43480081E634 /* mastermindUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDCADB1B1E3A43470081E634 /* mastermind */ = {
+			isa = PBXGroup;
+			children = (
+				CDCADB1C1E3A43470081E634 /* AppDelegate.swift */,
+				CDCADB1E1E3A43470081E634 /* ViewController.swift */,
+				CDCADB501E3A43930081E634 /* vsthirdViewController.swift */,
+				CDCADB4E1E3A43880081E634 /* vs2ViewController.swift */,
+				CDCADB4C1E3A437C0081E634 /* thirdViewController.swift */,
+				CDCADB4A1E3A436E0081E634 /* secondViewController.swift */,
+				AA4342071EC2D83500CAFCA1 /* Localizable.strings */,
+				CDCADB201E3A43470081E634 /* Main.storyboard */,
+				CDCADB231E3A43470081E634 /* Assets.xcassets */,
+				CDCADB251E3A43470081E634 /* LaunchScreen.storyboard */,
+				CDCADB281E3A43470081E634 /* Info.plist */,
+				CD5ADCF31E4BA01000DBA72C /* GoogleService-Info.plist */,
+			);
+			path = mastermind;
+			sourceTree = "<group>";
+		};
+		CDCADB301E3A43470081E634 /* mastermindTests */ = {
+			isa = PBXGroup;
+			children = (
+				CDCADB311E3A43470081E634 /* mastermindTests.swift */,
+				CDCADB331E3A43480081E634 /* Info.plist */,
+			);
+			path = mastermindTests;
+			sourceTree = "<group>";
+		};
+		CDCADB3B1E3A43480081E634 /* mastermindUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CDCADB3C1E3A43480081E634 /* mastermindUITests.swift */,
+				CDCADB3E1E3A43480081E634 /* Info.plist */,
+			);
+			path = mastermindUITests;
+			sourceTree = "<group>";
+		};
+		CDCADB521E3A43AB0081E634 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA0998B11EE18EDF007FE956 /* GoogleMobileAds.framework */,
+				AA4341FD1EB8FE7F00CAFCA1 /* GoogleToolboxForMac.framework */,
+				CD5A26011E4BA63B002CDED5 /* SystemConfiguration.framework */,
+				CD5A25FF1E4BA631002CDED5 /* StoreKit.framework */,
+				CD5A25FD1E4BA626002CDED5 /* MessageUI.framework */,
+				CD5A25FB1E4BA61C002CDED5 /* EventKitUI.framework */,
+				CD5A25F91E4BA60E002CDED5 /* EventKit.framework */,
+				CD5A25F71E4BA601002CDED5 /* CoreTelephony.framework */,
+				CD5A25F51E4BA5F5002CDED5 /* CoreGraphics.framework */,
+				CD5A25F31E4BA5E9002CDED5 /* AVFoundation.framework */,
+				CD5A25F11E4BA5DC002CDED5 /* AudioToolbox.framework */,
+				CD5A25EF1E4BA5D0002CDED5 /* AdSupport.framework */,
+				CDCADB531E3A43AB0081E634 /* MultipeerConnectivity.framework */,
+				E8390766D14D5E1B0A2D11ED /* Pods_mastermind.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D364FA6A94D4EE33CC512865 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C419D9CF2F754C3D2E1C6B3 /* Pods-mastermind.debug.xcconfig */,
+				0B70B889E8CE396210AB5B4B /* Pods-mastermind.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDCADB181E3A43470081E634 /* mastermind */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDCADB411E3A43480081E634 /* Build configuration list for PBXNativeTarget "mastermind" */;
+			buildPhases = (
+				366DA71AED2D273CC2FFD191 /* [CP] Check Pods Manifest.lock */,
+				CDCADB151E3A43470081E634 /* Sources */,
+				CDCADB161E3A43470081E634 /* Frameworks */,
+				CDCADB171E3A43470081E634 /* Resources */,
+				3520D85941733481F7F59BF4 /* [CP] Embed Pods Frameworks */,
+				FB7F1029E6F6B42F4F614EB1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mastermind;
+			productName = mastermind;
+			productReference = CDCADB191E3A43470081E634 /* mastermind.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDCADB2C1E3A43470081E634 /* mastermindTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDCADB441E3A43480081E634 /* Build configuration list for PBXNativeTarget "mastermindTests" */;
+			buildPhases = (
+				CDCADB291E3A43470081E634 /* Sources */,
+				CDCADB2A1E3A43470081E634 /* Frameworks */,
+				CDCADB2B1E3A43470081E634 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDCADB2F1E3A43470081E634 /* PBXTargetDependency */,
+			);
+			name = mastermindTests;
+			productName = mastermindTests;
+			productReference = CDCADB2D1E3A43470081E634 /* mastermindTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CDCADB371E3A43480081E634 /* mastermindUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDCADB471E3A43480081E634 /* Build configuration list for PBXNativeTarget "mastermindUITests" */;
+			buildPhases = (
+				CDCADB341E3A43480081E634 /* Sources */,
+				CDCADB351E3A43480081E634 /* Frameworks */,
+				CDCADB361E3A43480081E634 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDCADB3A1E3A43480081E634 /* PBXTargetDependency */,
+			);
+			name = mastermindUITests;
+			productName = mastermindUITests;
+			productReference = CDCADB381E3A43480081E634 /* mastermindUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDCADB111E3A43470081E634 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "takahashi kei";
+				TargetAttributes = {
+					CDCADB181E3A43470081E634 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					CDCADB2C1E3A43470081E634 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 3F3GH39K84;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CDCADB181E3A43470081E634;
+					};
+					CDCADB371E3A43480081E634 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 3F3GH39K84;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CDCADB181E3A43470081E634;
+					};
+				};
+			};
+			buildConfigurationList = CDCADB141E3A43470081E634 /* Build configuration list for PBXProject "mastermind" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ja,
+			);
+			mainGroup = CDCADB101E3A43470081E634;
+			productRefGroup = CDCADB1A1E3A43470081E634 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDCADB181E3A43470081E634 /* mastermind */,
+				CDCADB2C1E3A43470081E634 /* mastermindTests */,
+				CDCADB371E3A43480081E634 /* mastermindUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDCADB171E3A43470081E634 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA4342051EC2D83500CAFCA1 /* Localizable.strings in Resources */,
+				CDCADB271E3A43470081E634 /* LaunchScreen.storyboard in Resources */,
+				CD5ADCF41E4BA01000DBA72C /* GoogleService-Info.plist in Resources */,
+				CDCADB241E3A43470081E634 /* Assets.xcassets in Resources */,
+				CDCADB221E3A43470081E634 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDCADB2B1E3A43470081E634 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA43420F1EC2D9B600CAFCA1 /* mastermindTests.xctest in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDCADB361E3A43480081E634 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA4342101EC2D9BB00CAFCA1 /* mastermindUITests.xctest in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3520D85941733481F7F59BF4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mastermind/Pods-mastermind-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		366DA71AED2D273CC2FFD191 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FB7F1029E6F6B42F4F614EB1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mastermind/Pods-mastermind-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDCADB151E3A43470081E634 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDCADB1F1E3A43470081E634 /* ViewController.swift in Sources */,
+				CDCADB511E3A43930081E634 /* vsthirdViewController.swift in Sources */,
+				CDCADB4F1E3A43880081E634 /* vs2ViewController.swift in Sources */,
+				CDCADB4B1E3A436E0081E634 /* secondViewController.swift in Sources */,
+				CDCADB4D1E3A437C0081E634 /* thirdViewController.swift in Sources */,
+				CDCADB1D1E3A43470081E634 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDCADB291E3A43470081E634 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDCADB321E3A43470081E634 /* mastermindTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDCADB341E3A43480081E634 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDCADB3D1E3A43480081E634 /* mastermindUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDCADB2F1E3A43470081E634 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDCADB181E3A43470081E634 /* mastermind */;
+			targetProxy = CDCADB2E1E3A43470081E634 /* PBXContainerItemProxy */;
+		};
+		CDCADB3A1E3A43480081E634 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDCADB181E3A43470081E634 /* mastermind */;
+			targetProxy = CDCADB391E3A43480081E634 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA4342071EC2D83500CAFCA1 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA4342061EC2D83500CAFCA1 /* Base */,
+				AA43420C1EC2D97B00CAFCA1 /* ja */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		CDCADB201E3A43470081E634 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDCADB211E3A43470081E634 /* Base */,
+				AA5CCDF11ED557EA00A19F5F /* ja */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CDCADB251E3A43470081E634 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDCADB261E3A43470081E634 /* Base */,
+				AA43420B1EC2D97100CAFCA1 /* ja */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDCADB3F1E3A43480081E634 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDCADB401E3A43480081E634 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDCADB421E3A43480081E634 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C419D9CF2F754C3D2E1C6B3 /* Pods-mastermind.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3F3GH39K84;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/mastermind",
+					"$(PROJECT_DIR)/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks",
+				);
+				INFOPLIST_FILE = mastermind/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mastermind.mastermindapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CDCADB431E3A43480081E634 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B70B889E8CE396210AB5B4B /* Pods-mastermind.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3F3GH39K84;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/mastermind",
+					"$(PROJECT_DIR)/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks",
+				);
+				INFOPLIST_FILE = mastermind/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mastermind.mastermindapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CDCADB451E3A43480081E634 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3F3GH39K84;
+				INFOPLIST_FILE = mastermindTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.mastermindTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mastermind.app/mastermind";
+			};
+			name = Debug;
+		};
+		CDCADB461E3A43480081E634 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3F3GH39K84;
+				INFOPLIST_FILE = mastermindTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.mastermindTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mastermind.app/mastermind";
+			};
+			name = Release;
+		};
+		CDCADB481E3A43480081E634 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3F3GH39K84;
+				INFOPLIST_FILE = mastermindUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.mastermindUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = mastermind;
+			};
+			name = Debug;
+		};
+		CDCADB491E3A43480081E634 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3F3GH39K84;
+				INFOPLIST_FILE = mastermindUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.mastermindUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = mastermind;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDCADB141E3A43470081E634 /* Build configuration list for PBXProject "mastermind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDCADB3F1E3A43480081E634 /* Debug */,
+				CDCADB401E3A43480081E634 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDCADB411E3A43480081E634 /* Build configuration list for PBXNativeTarget "mastermind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDCADB421E3A43480081E634 /* Debug */,
+				CDCADB431E3A43480081E634 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDCADB441E3A43480081E634 /* Build configuration list for PBXNativeTarget "mastermindTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDCADB451E3A43480081E634 /* Debug */,
+				CDCADB461E3A43480081E634 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDCADB471E3A43480081E634 /* Build configuration list for PBXNativeTarget "mastermindUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDCADB481E3A43480081E634 /* Debug */,
+				CDCADB491E3A43480081E634 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDCADB111E3A43470081E634 /* Project object */;
+}

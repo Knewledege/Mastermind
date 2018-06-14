@@ -1,0 +1,44 @@
+/* 
+  Localizable.strings
+  mastermind
+
+  Created by Kei on 2017/05/10.
+  Copyright © 2017年 takahashi kei. All rights reserved.
+*/
+"はじめ" = "FIRST";
+"自分の数字を３つ設定してください" = "Choose Your Three Number";
+"スタート" = "START";
+"引き分け・・・・" = "DROW...";
+"惜しかったです。" = "Close!!!";
+"OK" = "OK";
+"勝利!!!!!!!!" = "WIN !!!";
+"CPUはあなたの数を当てられませんでした" = "AI could not hit your number!";
+"負け。。。" = "LOSE...";
+"CPUはあなたの数字を当てました" = "AI hit your number!!!";
+"相手の数字を予想してください!" = "Forecast the number of the enemy";
+"自分の予想" = "Your forecast";
+"CPUの予想" = "AI's forecast";
+"相手の予想" = "Enemy's forecast";
+"ヒントを参考に予想してください！" = "Forecast with reference to hints!";
+"敗け。。。" = "LOSE...";
+"エラー" = "ERROR";
+"後攻" = "";
+"相手が数字を設定しています!" = "The enemy is setting a number";
+"先攻" = "";
+"正解!!!" = "";
+"後攻の相手が外したら勝ちです！！！" = "Winning if enemies remove";
+"ギリギリでしたね。。。" = "That was close.";
+"あなたの勝ちです！！" = "YOU WIN!!";
+"残念あなたの負けです。" = "Unfortunately your lose";
+"待機" = "Wait second...";
+"相手が数字を設定します。" = "The enemy sets a number.";
+"相手が数字を予想しています!" = "The enemy forecasting the number of your's";
+"後攻に当てられたので負けです。。" = "";
+"惜しい！相手に当てられてしまいました" = "Close!!!The enemy hit your number!!!";
+"相手はあなたの数を当てられませんでした" = "The enemy could not hit your number!";
+"相手が正解しました!!!" = "The enemy hit your number";
+"このターンで当てないと負けです。" = "If you can not hit it this turn, your lose.";;
+"接続不可" = "Unable to connect!!";
+"相手との接続が切れました" = "Lost connection with the enemy";
+"再接続" = "Reconnect";
+"ホーム画面" = "Title screen";
